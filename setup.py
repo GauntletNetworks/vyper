@@ -48,8 +48,6 @@ setup(
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='0.1.0-beta.17',
     description='Vyper: the Pythonic Programming Language for the EVM',
-    long_description_markdown_filename='README.md',
-    long_description_content_type='text/markdown',
     author='Vyper Team',
     author_email='',
     url='https://github.com/vyperlang/vyper',
@@ -65,7 +63,6 @@ setup(
     ],
     setup_requires=[
         'pytest-runner',
-        'setuptools-markdown'
     ],
     tests_require=test_deps,
     extras_require=extras,
